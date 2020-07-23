@@ -1,0 +1,17 @@
+.todo-filter {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-action {
+  border-radius: 6px;
+}
+
+.btn-action.active {
+  border: 1px solid pink;
+}

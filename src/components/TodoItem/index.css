@@ -1,0 +1,41 @@
+.btn-no-padding {
+  padding: 0;
+}
+
+.btn-check {
+  margin-right: 15px;
+}
+
+.todo-list-item {
+  display: flex;
+  padding: 10px;
+}
+
+.todo-list-item:not(:last-child) {
+  border-bottom: 1px solid gainsboro;
+}
+
+.todo-list-item.done {
+  color: gray;
+}
+
+.todo-list-item .name {
+  display: inline-block;
+  padding: 10px 0;
+  align-self: center;
+}
+
+.todo-list-item .form {
+  width: 100%;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.todo-list-item.done .name {
+  text-decoration: line-through;
+}
+
+.todo-list-item-actions {
+  margin-left: auto;
+  align-self: center;
+}
